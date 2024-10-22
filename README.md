@@ -1,1 +1,1 @@
-#Movie app using Mern stack 
+Movie app using Mern stack 
