@@ -1,4 +1,6 @@
 Movie app using Mern stack 
-npm run fullstack
-npm run backeend
-npm run frontend 
+
+  "scripts": {
+    "backend": "nodemon backend/index.js",
+    "frontend": "cd frontend && npm run dev"
+  },
