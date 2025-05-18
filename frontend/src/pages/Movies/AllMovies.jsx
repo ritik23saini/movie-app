@@ -8,7 +8,7 @@ import {
 import MovieCard from "./MovieCard";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import banner from "../../assets/banner.jpg";
+import poster from "../../assets/poster.jpg";
 import {
   setMoviesFilter,
   setFilteredMovies,
@@ -80,7 +80,7 @@ const AllMovies = () => {
         <section>
           <div
             className="relative h-[50rem] w-screen mb-10 flex items-center justify-center bg-cover"
-            style={{ backgroundImage: `url(${banner})` }}
+            style={{ backgroundImage: `url(${poster})` }}
           >
             <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-black opacity-60"></div>
 
